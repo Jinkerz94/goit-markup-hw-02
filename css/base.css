@@ -14,6 +14,19 @@ body {
   margin-right: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   color: #2196F3;
   font-family: "Raleway", sans-serif;
@@ -68,4 +81,37 @@ body {
 
 .header-nav-link:hover {
   color: #2196F3;
+}
+
+.footer {
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-address-wrapper {
+  margin-top: 9px;
+  max-width: 231px;
+}
+
+.footer-address {
+  color: #FFF;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.footer-mail {
+  display: block;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.60);
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.footer-phone {
+  display: block;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.60);
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
